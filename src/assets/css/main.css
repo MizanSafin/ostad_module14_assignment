@@ -12,7 +12,10 @@
   top: 0px;
   position: fixed;
   z-index: 10;
-  /* overflow-x: hidden; */
+}
+.row > * {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
 .mainlogo {
@@ -224,7 +227,9 @@
 }
 
 /* Homepage design */
-
+.homepage {
+  overflow-x: hidden;
+}
 .hero {
   width: 100%;
   min-height: 837px;
@@ -734,6 +739,10 @@
   .header {
     padding: 5px 10px;
     overflow-x: scroll;
+  }
+  .footer .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .navLink {
     gap: 10px;

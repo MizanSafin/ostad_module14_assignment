@@ -30,7 +30,7 @@ function FeatureProducts() {
             const { img, date, title } = project;
             return (
               <div className="col-md-6" key={i.toString()}>
-                <div className="row m-2">
+                <div className="row ">
                   <img src={img} alt="" className="img-fluid firstImg" />
                   <h5 className="mt-4 date">{date}</h5>
                   <h4 className="mb-4 projectTitle">{title}</h4>
@@ -40,13 +40,13 @@ function FeatureProducts() {
           })}
 
         <div className="col-md-6">
-          <div className="row ms-4">
+          <div className="row  ">
             {featureProjects &&
               featureProjects.map((project, i) => {
                 const { img, date, title } = project;
                 return (
                   <div className="col-md-6" key={i.toString()}>
-                    <div className="row m-2 me-3">
+                    <div className="row ">
                       <img src={img} alt="" className="img-fluid restImg" />
                       <h5 className="date mt-2">{date}</h5>
                       <h4 className="mb-3 projectTitle">{title}</h4>
