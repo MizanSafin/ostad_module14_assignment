@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
       <div className="hero container-fluid">
-        <div className="row align-items-center">
+        <div className="row align-items-center rw">
           <div className="col-lg-6 left">
             <h1>Increase Your Customers Loyalty and Satisfaction</h1>
             <p>
